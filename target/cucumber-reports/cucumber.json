@@ -1,0 +1,1395 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-31T05:20:07.684Z",
+        "line": 4,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5146752100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [59d55afdbff951e0d4f1c19fd81145ef, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53028/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 59d55afdbff951e0d4f1c19fd81145ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:6)\r\n",
+              "duration": 58967200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1003000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:13.525Z",
+        "line": 13,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3524620800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: email_id\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:15)\r\n",
+              "duration": 22987700,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:17.105Z",
+        "line": 21,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1808796100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f10a1a64bca9100d6d63c17b5fe3fb5c, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53078/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f10a1a64bca9100d6d63c17b5fe3fb5c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:23)\r\n",
+              "duration": 9992000,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "click on cancel button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_cancel_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:18.977Z",
+        "line": 30,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1575904000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [89cd049d7c9cc5b6f4a4f08748855c1d, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53090/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 89cd049d7c9cc5b6f4a4f08748855c1d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:32)\r\n",
+              "duration": 6995400,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user click on attach field and attach a png file",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_attach_field_and_attach_a_png_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:20.595Z",
+        "line": 40,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1679035200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fcf76aebce987e6929ec6033e28ec875, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53103/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fcf76aebce987e6929ec6033e28ec875\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:42)\r\n",
+              "duration": 6994600,
+              "status": "failed"
+            },
+            "line": 42,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "user click on attach field and attach a tiff file",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_attach_field_and_attach_a_tiff_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:22.319Z",
+        "line": 50,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2050845500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7b9478436712fcfed964c1b09007ed5c, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53115/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7b9478436712fcfed964c1b09007ed5c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:52)\r\n",
+              "duration": 12993900,
+              "status": "failed"
+            },
+            "line": 52,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "user click on attach field and attach a MP4 file",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_attach_field_and_attach_a_MP4_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:24.412Z",
+        "line": 60,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2260585500,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [84945dc333f316cf4aab85598a79610c, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53129/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 84945dc333f316cf4aab85598a79610c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:62)\r\n",
+              "duration": 8995200,
+              "status": "failed"
+            },
+            "line": 62,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "user click on attach field and attach a MKV file",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_attach_field_and_attach_a_MKV_file()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:26.714Z",
+        "line": 71,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1931539200,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [66b7c8c77e9dc0a8af4b900e8ac3e4ac, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53145/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 66b7c8c77e9dc0a8af4b900e8ac3e4ac\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:73)\r\n",
+              "duration": 26981100,
+              "status": "failed"
+            },
+            "line": 73,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "user enter new data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_new_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "user click on assign to option",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_assign_to_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "8"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:28.694Z",
+        "line": 81,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2071659700,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3ec5a46b90523c0fcfa82bab817a2d1e, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53156}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53156/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3ec5a46b90523c0fcfa82bab817a2d1e\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:83)\r\n",
+              "duration": 8994300,
+              "status": "failed"
+            },
+            "line": 83,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 87,
+            "name": "user click on the attachment field in Steps to reproduce",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_the_attachment_field_in_Steps_to_reproduce()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "user input url",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "user input Text To Display",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Text_To_Display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002900,
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "user input Title",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "user input Open link in",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Open_link_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "user click save",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "user click on the attachment field in Actual Result",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_the_attachment_field_in_Actual_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "user input url",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "user input Text To Display",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Text_To_Display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "user input Title",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 97,
+            "name": "user input Open link in",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Open_link_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 98,
+            "name": "user click save",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "user click on the attachment field in Expected Result",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_the_attachment_field_in_Expected_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 100,
+            "name": "user input url",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 101,
+            "name": "user input Text To Display",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Text_To_Display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 102,
+            "name": "user input Title",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "skipped"
+            },
+            "line": 103,
+            "name": "user input Open link in",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Open_link_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 104,
+            "name": "user click save",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 105,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "9"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T05:20:30.839Z",
+        "line": 108,
+        "name": "To check and verify the Defects created screen Functionality",
+        "description": "",
+        "id": "test-the-defect-management-page;to-check-and-verify-the-defects-created-screen-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1923557000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.118)\nBuild info: version: \u00274.14.1\u0027, revision: \u002703f8ede370\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.8.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [68e2a47a070a6badc26a54bb183d063e, findElement {using\u003did, value\u003demail_id}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\MUHAMM~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53168}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53168/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 68e2a47a070a6badc26a54bb183d063e\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Pages.kualiteepages.enter_email(kualiteepages.java:41)\r\n\tat StepDefinitions.kualiteeTest.user_Login_with_valid_credentials(kualiteeTest.java:22)\r\n\tat ✽.User Login with valid credentials(file:///C:/Users/MuhammadNomanGhafoor/eclipse-workspace/Kualitee/src/test/resources/kualitee.feature:110)\r\n",
+              "duration": 7995000,
+              "status": "failed"
+            },
+            "line": 110,
+            "name": "User Login with valid credentials",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_Login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 111,
+            "name": "user click on defect management tab",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_defect_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 112,
+            "name": "user click on new defect button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_new_defect_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "skipped"
+            },
+            "line": 113,
+            "name": "user enter data into the description field",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_enter_data_into_the_description_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 114,
+            "name": "user click on the attachment field in Steps to reproduce",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_the_attachment_field_in_Steps_to_reproduce()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "user input url",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 116,
+            "name": "user input Text To Display",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Text_To_Display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 117,
+            "name": "user input Title",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 118,
+            "name": "user input Open link in",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Open_link_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 119,
+            "name": "user click save",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 120,
+            "name": "user click on the attachment field in Actual Result",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_the_attachment_field_in_Actual_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 121,
+            "name": "user input url",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 122,
+            "name": "user input Text To Display",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Text_To_Display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 123,
+            "name": "user input Title",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "skipped"
+            },
+            "line": 124,
+            "name": "user input Open link in",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Open_link_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "skipped"
+            },
+            "line": 125,
+            "name": "user click save",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 126,
+            "name": "user click on the attachment field in Expected Result",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_on_the_attachment_field_in_Expected_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995500,
+              "status": "skipped"
+            },
+            "line": 127,
+            "name": "user input url",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 128,
+            "name": "user input Text To Display",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Text_To_Display()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 129,
+            "name": "user input Title",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 130,
+            "name": "user input Open link in",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_input_Open_link_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 131,
+            "name": "user click save",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.user_click_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 132,
+            "name": "click on cancel button",
+            "match": {
+              "location": "StepDefinitions.kualiteeTest.click_on_cancel_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "Sample"
+          },
+          {
+            "name": "10"
+          }
+        ]
+      }
+    ],
+    "name": "Test The Defect Management Page",
+    "description": "",
+    "id": "test-the-defect-management-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/kualitee.feature",
+    "tags": []
+  }
+]
